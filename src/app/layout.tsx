@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-<<<<<<< HEAD
-=======
-import "@stream-io/video-react-sdk/dist/css/styles.css";
->>>>>>> a3d2750 (Added meeting setup)
 import "./globals.css";
 import {
   ClerkProvider,
@@ -14,10 +10,6 @@ import {
 import ConvexClerkProvider from "@/components/providers/ConvexClerkProvider";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
-<<<<<<< HEAD
-=======
-import { Toaster } from "react-hot-toast";
->>>>>>> a3d2750 (Added meeting setup)
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -62,10 +54,6 @@ export default function RootLayout({
               <RedirectToSignIn />
             </SignedOut>
           </ThemeProvider>
-<<<<<<< HEAD
-=======
-          <Toaster />
->>>>>>> a3d2750 (Added meeting setup)
         </body>
       </html>
     </ConvexClerkProvider>
