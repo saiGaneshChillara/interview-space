@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from 'react';
 
 function MeetingRoom() {
   return (
     <div>MeetingRoom</div>
 =======
+=======
+>>>>>>> 1bb042d1cee8b08cb1a5b2b772d8f23478f4d538
 import { DropdownMenuTrigger } from '@radix-ui/react-dropdown-menu';
 import { CallControls, CallingState, CallParticipantsList, PaginatedGridLayout, SpeakerLayout, useCallStateHooks } from '@stream-io/video-react-sdk';
 import { LayoutListIcon, LoaderIcon, UsersIcon } from 'lucide-react';
@@ -78,7 +81,10 @@ const MeetingRoom = () => {
         </ResizablePanel>
       </ResizablePanelGroup>
     </div>
+<<<<<<< HEAD
 >>>>>>> 1bb042d (Project completed)
+=======
+>>>>>>> 1bb042d1cee8b08cb1a5b2b772d8f23478f4d538
   );
 };
 

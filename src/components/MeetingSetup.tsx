@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DeviceSettings, useCall, VideoPreview } from "@stream-io/video-react-sdk";
 import { useEffect, useState } from "react";
 import { Card } from "./ui/card";
@@ -131,6 +132,8 @@ function MeetingSetup({ onSetupComplete }: { onSetupComplete: () => void }) {
   );
 }
 =======
+=======
+>>>>>>> 1bb042d1cee8b08cb1a5b2b772d8f23478f4d538
 import { DeviceSettings, useCall, VideoPreview } from '@stream-io/video-react-sdk';
 import { CameraIcon, MicIcon, SettingsIcon } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -236,5 +239,8 @@ function MeetingSetup({ onSetupComplete }: { onSetupComplete: () => void }) {
     );
 };
 
+<<<<<<< HEAD
 >>>>>>> 1bb042d (Project completed)
+=======
+>>>>>>> 1bb042d1cee8b08cb1a5b2b772d8f23478f4d538
 export default MeetingSetup;
